@@ -1,0 +1,117 @@
+.bannerBg {
+  width: 360px;
+  height: 188px;
+  background: #333333;
+}
+
+.bannerContainer {
+  width: 90%;
+}
+
+.resImage {
+  width: 221px;
+  height: 221px;
+  margin-left: -90px;
+  margin-top: -60px;
+  border-radius: 133.98px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .resImage {
+    width: 445px;
+    height: 280px;
+    border-radius: 8px;
+    margin: 20px;
+  }
+  .bannerBg {
+    width: 100%;
+    height: 344px;
+  }
+}
+.resName {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .resName {
+    font-size: 30px;
+  }
+}
+
+.resCuisine {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .resCuisine {
+    font-size: 16px;
+  }
+  .resLocation {
+    font-size: 16px;
+  }
+}
+
+.resLocation {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.ratingRateContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.subText {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+}
+
+.separationLine {
+  width: 40px;
+  height: 0px;
+  border: 1px solid #e2e8f0;
+  transform: rotate(90deg);
+  margin: 0px;
+}

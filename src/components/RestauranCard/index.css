@@ -1,0 +1,32 @@
+.cardImg {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+}
+.restName {
+  font-size: 16px;
+  color: #334155;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 24px;
+}
+.restCusine {
+  font-size: 12px;
+  color: #64748b;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  line-height: 16px;
+}
+.restCusine1 {
+  font-size: 12px;
+  color: #64748b;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  line-height: 24px;
+}
+.restCard {
+  width: 320px;
+}
+.restCardItem {
+  list-style-type: none;
+}

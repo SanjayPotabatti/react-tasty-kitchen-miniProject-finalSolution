@@ -1,0 +1,128 @@
+.foodItem {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.foodItemImage {
+  width: 160px;
+  height: 120px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 786px) {
+  .foodItemImage {
+    width: 255px;
+    height: 150px;
+  }
+}
+
+.foodItemInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.foodItemName {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  color: #334155;
+  letter-spacing: 0.2px;
+}
+
+.ratingCont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.foodItemRating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.23px;
+  color: #334155;
+  margin: 0px;
+}
+
+.addBtn {
+  border: 2px solid #ffa412;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #ffa412;
+  width: 44px;
+  height: 24px;
+  font-size: 12px;
+  background: none;
+}
+
+.cartBtnQtyCont {
+  display: flex;
+  align-items: center;
+}
+
+.decrementCount {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.incrementCount {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.iconBtn {
+  color: #475569;
+  width: 16px;
+  height: 16px;
+}
+
+.activeCount {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.costCont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.foodItemCost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #334155;
+}
+@media screen and (min-width: 786px) {
+  .foodItemName {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .foodItemCost {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .foodItem {
+    width: 45%;
+    margin-right: 20px;
+  }
+}

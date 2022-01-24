@@ -1,0 +1,69 @@
+.cartListContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cartHeadersCont {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cartHeadersCont {
+    display: flex;
+  }
+}
+
+.cartTitleItem {
+  padding-left: 80px;
+  width: 50%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #475569;
+}
+
+.qunatityAndPrice {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media screen and (min-width: 786px) {
+  .qunatityAndPrice {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.cartHeaderQunatity {
+  text-align: center;
+  width: 50%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #475569;
+}
+
+.cartPrice {
+  text-align: center;
+  width: 50%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #475569;
+}
+
+.cartList {
+  list-style-type: none;
+  padding-left: 0px;
+}

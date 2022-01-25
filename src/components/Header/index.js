@@ -53,19 +53,23 @@ const Header = props => {
       >
         <HiViewList />
       </button>
-      <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div className="navbar-collapse" id="navbarTogglerDemo01">
         <ul className="navbar-nav d-flex flex-row align-items-center pr-5">
           <li className="nav-item active navItemsHeading p-2">
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
+            <div>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </div>
           </li>
 
           <li className="nav-item navItemsHeading p-2">
-            <Link to="/cart">
-              Cart
-              {renderCartItemsCount()}
-            </Link>
+            <div>
+              <Link to="/cart">
+                Cart
+                {renderCartItemsCount()}
+              </Link>
+            </div>
           </li>
 
           <li className="nav-item">
